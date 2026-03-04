@@ -52,10 +52,6 @@ public class Jeu {
 
 
 
-	public Boutique getBoutique() {
-        return boutique;
-    }
-
 
 
 	@Override

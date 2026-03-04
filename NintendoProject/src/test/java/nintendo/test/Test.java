@@ -6,15 +6,17 @@ import java.time.LocalDate;
 
 import nintendo.model.Boutique;
 import nintendo.model.Console;
+import nintendo.model.Hybride;
 import nintendo.model.Jeu;
+import nintendo.model.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
-		Console c1 = new Console("Switch", 300, LocalDate.parse("2016-01-01"));
-		Console c2 = new Console("PS5", 500, LocalDate.parse("2019-01-01"));
-		Console c3 = new Console("PS4", 400, LocalDate.parse("2015-01-01"));
-		Console c4 = new Console("SerieX", 1000, LocalDate.parse("2022-01-01"));
+		Console c1 = new Hybride("Switch", 300, LocalDate.parse("2016-01-01"));
+		Console c2 = new Salon("PS5", 500, LocalDate.parse("2019-01-01"));
+		Console c3 = new Salon("PS4", 400, LocalDate.parse("2015-01-01"));
+		Console c4 = new Salon("SerieX", 1000, LocalDate.parse("2022-01-01"));
 		Boutique b1 = new Boutique("Leclerc", "Rue de la Paix");		
 		Boutique b2 = new Boutique("Micromania", "Japon");
 		Jeu j1 = new Jeu("Breath Of The Wild", c1, b1);
