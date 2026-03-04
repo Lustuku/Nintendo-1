@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Client;
 import java.time.LocalDate;
 
 import nintendo.model.Boutique;
@@ -18,6 +19,8 @@ public class Test {
 		Jeu j3 = new Jeu("Red Dead Redemption 2", c3);
 		Jeu j4 = new Jeu("Hollow Knight", c1);
 		Jeu j5 = new Jeu("Halo Infinite", c4);
+		Client client1 = new Client("Samus", "Aran");
+		Client client2 = new Client("Link", "Femboy");
 		
 		Boutique boutique = new Boutique("Micromania", "1 rue de la banque, 75000 Paris");
 	}
