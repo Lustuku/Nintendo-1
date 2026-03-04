@@ -16,6 +16,18 @@ public class Jeu {
 
 
 
+	public Boutique getBoutique() {
+		return boutique;
+	}
+
+
+
+	public void setBoutique(Boutique boutique) {
+		this.boutique = boutique;
+	}
+
+
+
 	public String getTitre() {
 		return titre;
 	}
